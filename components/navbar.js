@@ -6,7 +6,7 @@ import data from '../dummy/navbar.json'
 const Navbar = ({ uselogo, logosrc }) => {
     // console.log(data)
     return (
-        <div className="flex flex-row justify-between pt-6">
+        <div className="flex flex-row justify-between pt-9 md:pt-12">
             <div className="flex">
                 <a className="" href="">
                     {uselogo ? (
@@ -16,7 +16,7 @@ const Navbar = ({ uselogo, logosrc }) => {
                     )}
                 </a>
             </div>
-            <div className="flex flex-row ">
+            <div className="hidden md:flex flex-row ">
                 {/* use this method if u want to use separate json cms */}
                 {/* disable/comment if u not use it */}
                 {data.map((item, idx) => (

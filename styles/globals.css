@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* div {
-  display: flex;
-} */
+
+
+.demobtn:before {
+  content: url(https://ik.imagekit.io/icvij1rszoy/travel_agency/Group_590_bxcJwEnWIfl.svg?updatedAt=1634449508669)
+}
+
+.sec1_bg {
+  background-image: url(https://ik.imagekit.io/icvij1rszoy/travel_agency/Decore_RC3hCRbq_.png?updatedAt=1634451731475);
+  background-repeat: no-repeat;
+  background-position-x: 43rem;
+}
