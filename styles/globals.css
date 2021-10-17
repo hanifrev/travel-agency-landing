@@ -11,5 +11,12 @@
 .sec1_bg {
   background-image: url(https://ik.imagekit.io/icvij1rszoy/travel_agency/Decore_RC3hCRbq_.png?updatedAt=1634451731475);
   background-repeat: no-repeat;
-  background-position-x: 43rem;
+  background-position-x: right;
+  background-size: contain;
+}
+
+@media (min-width: 960px) {
+  .sec1_bg {
+    background-size: unset;
+  }
 }

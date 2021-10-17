@@ -6,7 +6,7 @@ const First_Section = () => {
     )
 
     return (
-        <div className="flex flex-col md:flex-row pt-12 pb-12 md:pt-24 lg:pt-32 sec1_bg">
+        <div className="flex flex-col md:flex-row pt-12 pb-12 md:pt-24 lg:pt-32 h-screen">
             <div className="max-w-screen-sm w-full">
                 <div className="pb-6 uppercase text-sm md:text-xl text-red-600 font-semibold">
                     Best Destinations around the world
@@ -31,7 +31,7 @@ const First_Section = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-sm w-full my-auto mx-auto">
+            <div className="max-w-screen-sm w-full mx-auto">
                 <img src="https://airwaysmag.com/wp-content/uploads/2020/10/Lufthansa_Boeing_747-400_D-ABVY_at_Frankfurt_Airport.jpg" className="max-w-screen-sm w-full" alt="test" />
             </div>
         </div>
