@@ -20,3 +20,9 @@
     background-size: unset;
   }
 }
+
+@media (min-width: 1170px) {
+  .posimgs1 {
+    transform: translateX(40rem);
+  }
+}

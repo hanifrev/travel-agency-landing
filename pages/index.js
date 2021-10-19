@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Navbar from '../components/navbar'
 import First_Section from '../components/first_section'
 import Second_Section from '../components/second_section'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar />
         <First_Section />
         <Second_Section />
+        <Footer />
       </div>
     </div>
 

@@ -34,8 +34,8 @@ const First_Section = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-md w-full mx-auto">
-                <img src="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__1___1__-Tr8PUlxC.png?updatedAt=1634522423598" className="max-w-screen-sm w-full md:pt-16" alt="test" />
+            <div className="max-w-screen-md w-full mx-auto lg:absolute">
+                <img src="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__1___1__-Tr8PUlxC.png?updatedAt=1634522423598" className="max-w-screen-sm w-full md:pt-16 posimgs1" alt="test" />
             </div>
         </div>
 
