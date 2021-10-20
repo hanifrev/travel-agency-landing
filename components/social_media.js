@@ -1,34 +1,36 @@
 /* eslint-disable @next/next/no-img-element */
 import { FaFacebookSquare, FaInstagram, FaTwitter, FaDiscord } from "react-icons/fa";
-import image from "next/image";
+import { IconContext } from "react-icons";
+// import image from "next/image";
 
 const SocialMedia = ({fb, ig, tw, playstr, appstr, disc, iconClassContainer}) => {
+    const iconStyle = { color: "#5E6282", fontSize: "1.2rem" }
     return (
         <div className="max-w-screen-sm mx-auto">
             <div className={`flex flex-row mx-auto gap-6 justify-evenly pb-6 ${iconClassContainer}`}>
                 {/* socmedicon */}
                 {fb && (
                     <a href="https://facebook.com" target="_blank" rel="noreferrer" className >
-                        <FaFacebookSquare />
+                        <FaFacebookSquare style={iconStyle} />
                     </a>
                 )}
                 {ig && (
                     <a href="https://instagram.com" target="_blank" rel="noreferrer" className>
-                        <FaInstagram />
+                        <FaInstagram style={iconStyle} />
                     </a>
                 )}
                 {tw && (
                     <a href="https://twitter.com" target="_blank" rel="noreferrer" className>
-                        <FaTwitter />
+                        <FaTwitter style={iconStyle} />
                     </a>
                 )}
                 {disc && (
                     <a href="https://discord.com" target="_blank" rel="noreferrer" className>
-                        <FaDiscord />
+                        <FaDiscord style={iconStyle} />
                     </a>
                 )}
             </div>
-            <div className="flex justify-around mx-auto pb-4">Discover Our App</div>
+            <div className="flex justify-around mx-auto pb-4 text-lg md:text-xl text-gray-700">Discover Our App</div>
             <div className={`flex flex-row mx-auto gap-2 justify-evenly ${iconClassContainer}`}>
                 {/* appstore */}
                 {playstr && (

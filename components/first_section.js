@@ -35,7 +35,7 @@ const First_Section = () => {
                 </div>
             </div>
             <div className="max-w-screen-md w-full mx-auto lg:absolute">
-                <img src="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__1___1__-Tr8PUlxC.png?updatedAt=1634522423598" className="max-w-screen-sm w-full md:pt-16 posimgs1" alt="test" />
+                <img src="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__2__ZDtAo-ASv.png?updatedAt=1634695474309" className="max-w-screen-sm w-full md:pt-16 posimgs1" alt="test" />
             </div>
         </div>
 

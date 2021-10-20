@@ -30,3 +30,10 @@
 .listclass>li {
   padding-bottom: 12px;
 }
+
+.sec2_bg {
+  background-image: url(https://ik.imagekit.io/icvij1rszoy/travel_agency/sec2bg_fGV6ItuGK.svg?updatedAt=1634521800239);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: auto;
+}
