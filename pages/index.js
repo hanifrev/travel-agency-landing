@@ -13,7 +13,11 @@ export default function Home() {
         <title>The Lotus Eater</title>
       </Head>
       <div className="px-9 sm:px-16 md:px-11 lg:px-0 max-w-screen-lg w-full mx-auto overflow-hidden ">
-        <Navbar />
+        <Navbar 
+          uselogo 
+          logosrc="https://ik.imagekit.io/icvij1rszoy/travel_agency/0012273862_10__1___3__AbercB-Jp.png?updatedAt=1634633949156"
+          logoClass="w-20"  
+        />
         <First_Section />
         <Second_Section />
         <Footer />

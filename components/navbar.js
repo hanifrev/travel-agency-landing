@@ -3,14 +3,14 @@
 import Link from 'next/link';
 import data from '../dummy/navbar.json'
 
-const Navbar = ({ uselogo, logosrc }) => {
+const Navbar = ({ uselogo, logosrc, logoClass }) => {
     // console.log(data)
     return (
-        <div className="flex flex-row justify-between pt-9 md:pt-12">
+        <div className="flex flex-row justify-between pt-8 md:pt-12">
             <div className="flex">
                 <a className="" href="">
                     {uselogo ? (
-                        <img src={logosrc} alt="logo" />
+                        <img src={logosrc} alt="logo" className={logoClass} />
                     ) : (
                         <p>Title</p>
                     )}
