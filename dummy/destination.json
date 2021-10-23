@@ -1,0 +1,20 @@
+[
+    {
+        "image": "img",
+        "destination": "Rome, Italy",
+        "price": "$5,42k",
+        "time": "10 Days Trip"
+    },
+    {
+        "image": "img",
+        "destination": "London, UK",
+        "price": "$4.2k",
+        "time": "12 Days Trip"
+    },
+    {
+        "image": "img",
+        "destination": "Full Europe",
+        "price": "$15k",
+        "time": "28 Days Trip"
+    }
+]
