@@ -37,3 +37,11 @@
   background-position-x: right;
   background-size: auto;
 }
+
+.destination-card {
+  max-width: 315px;
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 125px -30px rgba(120,114,114,0.54);
+}
