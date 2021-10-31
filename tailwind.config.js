@@ -19,6 +19,10 @@ module.exports = {
           xxs: "8px",
           "84": "84px"
         },
+        maxWidth: {
+          '90%': "90%",
+          "150%": "150%"
+        }
       },
     },
     variants: {
