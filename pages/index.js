@@ -6,6 +6,7 @@ import First_Section from '../components/first_section'
 import Second_Section from '../components/second_section'
 import Third_Section from '../components/third_section'
 import Fourth_Section from '../components/fourth_section'
+import Subscribe_Section from '../components/subscribe_section'
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Second_Section />
         <Third_Section />
         <Fourth_Section />
+        <Subscribe_Section />
         <Footer />
       </div>
     </div>
