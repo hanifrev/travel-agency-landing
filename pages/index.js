@@ -25,7 +25,7 @@ export default function Home() {
         <Second_Section />
         <Third_Section />
         <Fourth_Section />
-        <Subscribe_Section />
+        {/* <Subscribe_Section /> */}
         <Footer />
       </div>
     </div>
