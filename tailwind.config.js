@@ -13,7 +13,8 @@ module.exports = {
         colors: {
           blackgrey: "#262424",
           bluesky: "#33AACF",
-          prehead_gray: "#5E6282"
+          prehead_gray: "#5E6282",
+          subs_cta: '#FF946D'
         },
         fontSize: {
           xxs: "8px",
