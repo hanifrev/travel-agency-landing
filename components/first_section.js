@@ -23,7 +23,7 @@ const First_Section = () => {
 
                 <div className="pb-9 flex flex-col md:flex-row">
                     <div className="md:pr-5">
-                        <button onClick={Popup_Modal} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white">
+                        <button onClick={cta} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white">
                             Find out More
                         </button>
                     </div>
