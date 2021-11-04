@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Head from 'next/head'
 import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
@@ -14,8 +15,14 @@ export default function Home() {
     <div className="sec1_bg">
       <Head>
         <title>The Lotus Eater</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"
+        />
       </Head>
-      <div className="px-9 sm:px-16 md:px-11 lg:px-0 max-w-screen-lg w-full mx-auto overflow-hidden ">
+      <div 
+        className="px-9 sm:px-16 md:px-11 lg:px-0 max-w-screen-lg w-full mx-auto overflow-hidden"
+        style={{ fontFamily: ['Nunito', 'sans-serif'], }}
+      >
         <Navbar 
           uselogo 
           logosrc="https://ik.imagekit.io/icvij1rszoy/travel_agency/0012273862_10__1___3__AbercB-Jp.png?updatedAt=1634633949156"

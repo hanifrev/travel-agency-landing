@@ -20,7 +20,7 @@ const Navbar = ({ uselogo, logosrc, logoClass }) => {
                 {/* use this method if u want to use separate json cms */}
                 {/* disable/comment if u not use it */}
                 {data.map((item, idx) => (
-                    <li className="list-none mx-9" key={idx}>
+                    <li className="list-none mx-9 font-semibold" key={idx}>
                         <Link href={item.link}>
                             {item.title}
                         </Link>

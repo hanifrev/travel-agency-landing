@@ -1,18 +1,22 @@
 [
     {
-        "title": "Menu 1",
+        "title": "Destinations",
         "link": "https://google.com/"
     },
     {
-        "title": "Menu 2",
+        "title": "Hotels",
         "link": "https://google.com/"
     },
     {
-        "title": "Menu 3",
+        "title": "Flights",
         "link": "https://google.com/"
     },
     {
-        "title": "Menu 4",
+        "title": "Booking",
+        "link": "https://google.com/"
+    },
+    {
+        "title": "Login",
         "link": "https://google.com/"
     }
 ]
