@@ -10,8 +10,8 @@ const Subscribe_Section = () => {
     }
 
     return (
-        <div className="flex flex-col mx-auto my-auto w-full h-96 justify-center subs_bg">
-            <div className="mx-auto text-xl md:text-3xl lg:text-4xl font-semibold text-prehead_gray text-center md:w-3/4 pb-8 lg:pb-16 md:-mt-12 lg:mt-0 leading-7 lg:leading-10">
+        <div className="flex flex-col mx-auto my-auto w-full h-96 justify-center subs_bg mb-0 sm:mb-16 md:mb-36">
+            <div className="mx-auto text-xl md:text-3xl lg:text-4xl font-bold text-prehead_gray text-center md:w-3/4 pb-8 lg:pb-16 md:-mt-12 lg:mt-0 leading-7 lg:leading-10">
             Subscribe to get information, latest news and other interesting offers about Cobham
             </div>
             <div className="flex flex-col md:flex-row mx-auto max-w-90% md:max-w-full">

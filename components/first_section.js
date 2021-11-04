@@ -11,24 +11,24 @@ const First_Section = () => {
     return (
         <div className="flex flex-col md:flex-row pt-12 pb-12 md:pt-24 lg:pt-0 lg:h-screen lg:items-center">
             <div className="max-w-screen-sm sm:max-w-screen-md md:max-w-screen-sm w-full">
-                <div className="pb-6 uppercase text-sm md:text-xl text-red-600 font-semibold">
+                <div className="pb-6 uppercase text-sm md:text-xl text-red-600 font-bold">
                     Best Destinations around the world
                 </div>
-                <div className="pb-8 text-5xl sm:text-6xl lg:text-84 font-bold">
+                <div className="pb-8 text-5xl sm:text-6xl lg:text-84 font-extrabold">
                     Travel, enjoy and live a new and full life
                 </div>
-                <div className="pb-8 text-base leading-7">
+                <div className="pb-8 text-base leading-7 font-semibold">
                     Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
                 </div>
 
                 <div className="pb-9 flex flex-col md:flex-row">
                     <div className="md:pr-5">
-                        <button onClick={cta} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white">
+                        <button onClick={cta} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white font-semibold">
                             Find out More
                         </button>
                     </div>
                     <div className="pt-4 md:pt-0 flex flex-row">
-                        <button onClick={cta} className="mx-auto w-full md:w-40 lg:w-44 h-14 rounded-xl text-red-500 ">                            
+                        <button onClick={cta} className="mx-auto w-full md:w-40 lg:w-44 h-14 rounded-xl text-red-500 font-semibold">                            
                             Play Demo
                         </button>
                     </div>
