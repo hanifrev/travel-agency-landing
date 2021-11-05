@@ -1,12 +1,37 @@
 /* eslint-disable @next/next/no-img-element */
 // import Image from 'next/image'
-import Popup_Modal from "./popup_modal";
+import React, { useState } from "react";
+import Modal from 'react-modal';
+import { FaRegWindowClose } from "react-icons/fa";
 
 const First_Section = () => {
 
-    const cta = () => (
-        console.log("clicktest")
-    )
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    function openModal() {
+      setIsOpen(true);
+    }
+  
+    function afterOpenModal() {
+      // references are now sync'd and can be accessed.
+    //   subtitle.style.color = '#f00';
+    }
+  
+    function closeModal() {
+      setIsOpen(false);
+    }
+
+    const customStyles = {
+        content: {
+          top: '50%',
+          left: '50%',
+          right: 'auto',
+          bottom: 'auto',
+          marginRight: '-50%',
+          transform: 'translate(-50%, -50%)',
+        },
+      };
+      
 
     return (
         <div className="flex flex-col md:flex-row pt-12 pb-12 md:pt-24 lg:pt-0 lg:h-screen lg:items-center">
@@ -22,13 +47,25 @@ const First_Section = () => {
                 </div>
 
                 <div className="pb-9 flex flex-col md:flex-row">
+                
                     <div className="md:pr-5">
-                        <button onClick={cta} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white font-semibold">
-                            Find out More
-                        </button>
+                        <div>
+                            <button onClick={openModal} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white font-semibold">Find out More</button>
+                            <Modal
+                                isOpen={modalIsOpen}
+                                onAfterOpen={afterOpenModal}
+                                onRequestClose={closeModal}
+                                style={customStyles}
+                                contentLabel="Example Modal"
+                            >
+                                {/* <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2> */}
+                                <button onClick={closeModal}><FaRegWindowClose /></button>
+                                <div>We are still working on it</div>
+                            </Modal>
+                        </div>
                     </div>
                     <div className="pt-4 md:pt-0 flex flex-row">
-                        <button onClick={cta} className="mx-auto w-full md:w-40 lg:w-44 h-14 rounded-xl text-red-500 font-semibold">                            
+                        <button onClick={openModal} className="mx-auto w-full md:w-40 lg:w-44 h-14 rounded-xl text-red-500 font-semibold">                            
                             Play Demo
                         </button>
                     </div>
