@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/link-passhref */
 /* eslint-disable react/jsx-key */
 import Link from 'next/link';
@@ -8,7 +9,7 @@ const Navbar = ({ uselogo, logosrc, logoClass }) => {
     return (
         <div className="flex flex-row justify-between pt-8 md:pt-12">
             <div className="flex">
-                <a className="" href="">
+                <a className="" href="/">
                     {uselogo ? (
                         <img src={logosrc} alt="logo" className={logoClass} />
                     ) : (

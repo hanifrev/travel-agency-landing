@@ -2,6 +2,7 @@ import Image from 'next/image'
 import data from '../dummy/destination.json'
 import {FaLocationArrow} from "react-icons/fa";
 import Slider from "react-slick";
+import Link from 'next/link';
 
 const settings = {
     dots: false,
