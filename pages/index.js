@@ -14,7 +14,13 @@ export default function Home() {
   return (
     <div className="sec1_bg">
       <Head>
-        <title>The Lotus Eater</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="XTrans Travel" />
+        <meta property="og:description" content="XTrans Travel landing pages" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__6_-min_3RmzOsxhN.png?updatedAt=1636457872153" />
+        <title>XTrans Travel</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"
         />
