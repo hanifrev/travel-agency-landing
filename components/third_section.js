@@ -1,4 +1,5 @@
 import Destination_Card from "./destination_card";
+import Link from 'next/link';
 
 const Third_Section = () => {
     return (
@@ -9,7 +10,12 @@ const Third_Section = () => {
             </div>
             <div className="flex flex-col md:flex-row">
                 <Destination_Card />
-            </div> 
+            </div>
+            <div className="flex justify-center pt-10 md:pt-20 pb-0 md:pb-0 text-base md:text-xl font-bold">
+                <Link href="/destinations" className="">
+                    <a className="border-2 border-gray-300 hover:border-yellow-100 px-3 py-2 rounded-md hover:bg-subs_cta focus:bg-yellow-800">More Destinations</a>
+                </Link>
+            </div>
         </div>
     )
 }

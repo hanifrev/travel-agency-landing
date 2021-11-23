@@ -1,22 +1,27 @@
 [
     {
         "title": "Destinations",
-        "link": "/destinations"
+        "link": "/destinations",
+        "key": 0
     },
     {
         "title": "Hotels",
-        "link": "https://google.com/"
+        "link": "https://google.com/",
+        "key": 1
     },
     {
         "title": "Flights",
-        "link": "https://google.com/"
+        "link": "https://google.com/",
+        "key": 2
     },
     {
         "title": "Booking",
-        "link": "https://google.com/"
+        "link": "https://google.com/",
+        "key": 3
     },
     {
         "title": "Login",
-        "link": "https://google.com/"
+        "link": "https://google.com/",
+        "key": 4
     }
 ]
