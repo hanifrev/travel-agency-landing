@@ -1,0 +1,32 @@
+[
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/image_27_09LidL-9E.svg?updatedAt=1636852159772",
+        "imgmobile": "https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__7__SHIROqv-lDc.png?updatedAt=1636858400525",
+        "name": "axon",
+        "id": 0
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/image_28_J0hGMLVujp1.svg?updatedAt=1636852159792",
+        "imgmobile": "https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__8__jCAxetKLq.png?updatedAt=1636858400012",
+        "name": "jetstar",
+        "id": 1
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/image_29_-2_OLFo2Q.svg?updatedAt=1636852159086",
+        "imgmobile": "https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__9__4omMhw8tD.png?updatedAt=1636858400002",
+        "name": "expedia",
+        "id": 2
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/image_30_rjWyPi4YT.svg?updatedAt=1636852168872",
+        "imgmobile": "https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__10__84YaD0figI.png?updatedAt=1636858400193",
+        "name": "qantas",
+        "id": 3
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/image_31_BerL9mydPiT.svg?updatedAt=1636852160819",
+        "imgmobile": "https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__11__niUqc7mIuQ4.png?updatedAt=1636858400880",
+        "name": "alitalia",
+        "id": 4
+    }
+]

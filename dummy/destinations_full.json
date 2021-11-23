@@ -34,5 +34,23 @@
         "destination": "Istanbul, Turkey",
         "price": "$6.2k",
         "time": "10 Days Trip"
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/bali-indonesia-shutterstock_459773704_0dd494ecf7_1__1__TKvW53mscKb.png?updatedAt=1636866012794",
+        "destination": "Bali, Indonesia",
+        "price": "$3.2k",
+        "time": "7 Days Trip"
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/Phuket-Thailand-1-665x443_1__1__W-t9nOq_A.png?updatedAt=1636866012187",
+        "destination": "Phuket, Thailand",
+        "price": "$64.5k",
+        "time": "8 Days Trip"
+    },
+    {
+        "image": "https://ik.imagekit.io/icvij1rszoy/travel_agency/shutterstock_30216103_1__1__oi6egqmef.png?updatedAt=1636866012938",
+        "destination": "Egypt",
+        "price": "$7.7k",
+        "time": "8 Days Trip"
     }
 ]

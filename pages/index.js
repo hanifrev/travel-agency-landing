@@ -7,6 +7,8 @@ import First_Section from '../components/first_section'
 import Second_Section from '../components/second_section'
 import Third_Section from '../components/third_section'
 import Fourth_Section from '../components/fourth_section'
+import Testimon from '../components/fifth_section'
+import Airlines from '../components/airlines_section'
 import Subscribe_Section from '../components/subscribe_section'
 import Footer from '../components/footer'
 
@@ -32,12 +34,14 @@ export default function Home() {
         <Navbar 
           uselogo 
           logosrc="https://ik.imagekit.io/icvij1rszoy/travel_agency/0012273862_10__1___3__AbercB-Jp.png?updatedAt=1634633949156"
-          logoClass="w-20"  
+          logoClass="w-16 md:w-20"  
         />
         <First_Section />
         <Second_Section />
         <Third_Section />
         <Fourth_Section />
+        {/* <Testimon /> */}
+        <Airlines />
         <Subscribe_Section />
         <Footer />
       </div>

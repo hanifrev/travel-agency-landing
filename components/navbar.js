@@ -1,10 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/link-passhref */
 /* eslint-disable react/jsx-key */
 import Link from 'next/link';
 import data from '../dummy/navbar.json'
+import SideNav from './sidebar_nav';
 
 const Navbar = ({ uselogo, logosrc, logoClass }) => {
+    
     // console.log(data)
     return (
         <div className="flex flex-row justify-between pt-8 md:pt-12">
@@ -32,6 +35,10 @@ const Navbar = ({ uselogo, logosrc, logoClass }) => {
                 {/* <Link href="https://google.com">Menu 1</Link>
                 <Link href="https://google.com">Menu 2</Link>
                 <Link href="https://google.com">Menu 3</Link> */}
+            </div>
+            {/* burger menu (mobile) */}
+            <div className="flex items-center md:hidden ">
+                {/* <SideNav /> */}
             </div>
         </div>
     )
