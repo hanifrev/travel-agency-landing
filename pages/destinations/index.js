@@ -25,7 +25,7 @@ export default function Destination() {
                 />
                 <div className="">
                     <div className="flex justify-center font-bold text-3xl md:text-4xl pt-8">Destinations List</div>
-                    <div className="flex flex-col md:flex-row justify-center gap-10 flex-wrap py-10">
+                    <div className="flex flex-col md:flex-row justify-center gap-10 flex-wrap py-10 items-center">
                         {data.map((item, idx) => (
                             <div key={idx} className="destination-card bg-white rounded-3xl card-shadow text-lg text-gray-600">
                                 <div>

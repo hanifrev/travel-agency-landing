@@ -4,7 +4,7 @@
 /* eslint-disable react/jsx-key */
 import Link from 'next/link';
 import data from '../dummy/navbar.json'
-import SideNav from './sidebar_nav';
+import Foobar from './nav-mobile/Foobar';
 
 const Navbar = ({ uselogo, logosrc, logoClass }) => {
     
@@ -38,7 +38,7 @@ const Navbar = ({ uselogo, logosrc, logoClass }) => {
             </div>
             {/* burger menu (mobile) */}
             <div className="flex items-center md:hidden ">
-                {/* <SideNav /> */}
+                <Foobar />
             </div>
         </div>
     )

@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Destinations",
+        "link": "/destinations",
+        "key": 0,
+        
+        "title2": "Hotels",
+        "link2": "https://google.com/",
+
+        "title3": "Flights",
+        "link3": "https://google.com/",
+
+        "title4": "Booking",
+        "link4": "https://google.com/",
+
+        "title5": "Login",
+        "link5": "https://google.com/"
+    }
+]

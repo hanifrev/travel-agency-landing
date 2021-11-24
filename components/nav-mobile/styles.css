@@ -1,0 +1,19 @@
+
+.hiddens {
+    visibility: hidden;
+    position: fixed;
+  }
+
+.bg {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  transform: translateX(-19.6rem);
+  height: 100vh;
+  z-index: 1;
+}
+
+.listnav {
+  list-style: none;
+}
