@@ -63,3 +63,8 @@
     background-size: auto;
   }
 }
+
+.pane {
+  display: flex;
+  flex-direction: column;
+}

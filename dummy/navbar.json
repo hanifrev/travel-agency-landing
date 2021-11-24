@@ -2,26 +2,31 @@
     {
         "title": "Destinations",
         "link": "/destinations",
-        "key": 0
+        "key": 0,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.svg.png"
     },
     {
         "title": "Hotels",
         "link": "https://google.com/",
-        "key": 1
+        "key": 1,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.svg.png"
     },
     {
         "title": "Flights",
         "link": "https://google.com/",
-        "key": 2
+        "key": 2,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.svg.png"
     },
     {
         "title": "Booking",
         "link": "https://google.com/",
-        "key": 3
+        "key": 3,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.svg.png"
     },
     {
         "title": "Login",
         "link": "https://google.com/",
-        "key": 4
+        "key": 4,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.svg.png"
     }
 ]
