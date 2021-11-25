@@ -35,7 +35,11 @@ const First_Section = () => {
 
     return (
         <div className="flex flex-col md:flex-row pt-12 pb-12 md:pt-24 lg:pt-0 lg:h-screen lg:items-center">
-            <div className="max-w-screen-sm sm:max-w-screen-md md:max-w-screen-sm w-full">
+            <div className="max-w-screen-sm sm:max-w-screen-md md:max-w-screen-sm w-full"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="pb-6 uppercase text-sm md:text-xl text-red-600 font-bold">
                     Best Destinations around the world
                 </div>
@@ -71,7 +75,11 @@ const First_Section = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-md w-full mx-auto lg:absolute">
+            <div className="max-w-screen-md w-full mx-auto lg:absolute"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <img src="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__2__ZDtAo-ASv.png?updatedAt=1634695474309" className="max-w-screen-sm w-full md:pt-16 posimgs1" alt="test" />
             </div>
         </div>

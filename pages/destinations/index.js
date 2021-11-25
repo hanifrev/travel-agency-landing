@@ -24,10 +24,18 @@ export default function Destination() {
                     logoClass="w-20"  
                 />
                 <div className="">
-                    <div className="flex justify-center font-bold text-3xl md:text-4xl pt-8">Destinations List</div>
+                    <div className="flex justify-center font-bold text-3xl md:text-4xl pt-8"
+                        data-aos="zoom-in"
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    >Destinations List</div>
                     <div className="flex flex-col md:flex-row justify-center gap-10 flex-wrap py-10 items-center">
                         {data.map((item, idx) => (
-                            <div key={idx} className="destination-card bg-white rounded-3xl card-shadow text-lg text-gray-600">
+                            <div key={idx} className="destination-card bg-white rounded-3xl card-shadow text-lg text-gray-600"
+                                data-aos="flip-left"
+                                data-aos-easing="linear"
+                                data-aos-duration="600"
+                            >
                                 <div>
                                     <Image src={item.image} alt="img" width={630} height={672} />
                                 </div>

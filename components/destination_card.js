@@ -27,7 +27,11 @@ const Destination_Card = () => {
         <div className="flex flex-col md:flex-row mx-auto gap-10">
             {/* > md breakpoint */}
             {data.map((item, idx) => (
-                <div key={idx} className="destination-card bg-white rounded-3xl card-shadow text-lg text-gray-600">
+                <div key={idx} className="destination-card bg-white rounded-3xl card-shadow text-lg text-gray-600"
+                  data-aos="flip-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="500"
+                >
                     <div>
                         <Image src={item.image} alt="img" width={630} height={672} />
                     </div>
