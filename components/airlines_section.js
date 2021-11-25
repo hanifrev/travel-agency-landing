@@ -15,7 +15,11 @@ const Airlines = () => {
 
     return (
         <div>
-            <div className="hidden md:flex flex-row justify-between pt-24 pb-28 ">
+            <div className="hidden md:flex flex-row justify-between pt-24 pb-28 "
+                data-aos="zoom-in-up"
+                data-aos-easing="linear"
+                data-aos-duration="700"
+            >
                 {data.map((item, idx) => (
                     <div key={idx} className="flex flex-row">
                         <img alt="img" src={item.image} className="" />
