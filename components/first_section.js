@@ -2,11 +2,13 @@
 // import Image from 'next/image'
 import React, { useState } from "react";
 import Modal from 'react-modal';
+import Modals from "./Modals";
 import { FaRegWindowClose } from "react-icons/fa";
 
 const First_Section = () => {
 
     const [modalIsOpen, setIsOpen] = useState(false);
+    const [show, setShow] = useState(false)
 
     function openModal() {
       setIsOpen(true);
@@ -54,22 +56,22 @@ const First_Section = () => {
                 
                     <div className="md:pr-5">
                         <div>
-                            <button onClick={openModal} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white font-semibold">Find out More</button>
-                            <Modal
+                            <button onClick={() => setShow(true)} className="bg-yellow-400 hover:bg-yellow-600 w-full md:w-40 lg:w-44 h-14 rounded-xl text-white font-semibold">Find out More</button>
+                            {/* <Modal
                                 isOpen={modalIsOpen}
                                 onAfterOpen={afterOpenModal}
                                 onRequestClose={closeModal}
                                 style={customStyles}
                                 contentLabel="Example Modal"
-                            >
+                            > */}
                                 {/* <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2> */}
-                                <button onClick={closeModal}><FaRegWindowClose /></button>
+                                {/* <button onClick={closeModal}><FaRegWindowClose /></button>
                                 <div>We are still working on it</div>
-                            </Modal>
+                            </Modal> */}
                         </div>
                     </div>
                     <div className="pt-4 md:pt-0 flex flex-row">
-                        <button onClick={openModal} className="mx-auto w-full md:w-40 lg:w-44 h-14 rounded-xl text-red-500 font-semibold">                            
+                        <button onClick={() => setShow(true)} className="mx-auto w-full md:w-40 lg:w-44 h-14 rounded-xl text-red-500 font-semibold hover:bg-blue-600">                            
                             Play Demo
                         </button>
                     </div>
@@ -82,6 +84,7 @@ const First_Section = () => {
             >
                 <img src="https://ik.imagekit.io/icvij1rszoy/travel_agency/New_Project__2__ZDtAo-ASv.png?updatedAt=1634695474309" className="max-w-screen-sm w-full md:pt-16 posimgs1" alt="test" />
             </div>
+            <Modals onClose={() => setShow(false)} show={show} />
         </div>
 
     )
