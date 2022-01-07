@@ -2,11 +2,15 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/link-passhref */
 /* eslint-disable react/jsx-key */
+import { useState } from 'react';
 import Link from 'next/link';
 import data from '../dummy/navbar.json'
 import Foobar from './nav-mobile/Foobar';
+import { FaAlignJustify } from "react-icons/fa";
+import Navtoogle from './navtoogle';
 
 const Navbar = ({ uselogo, logosrc, logoClass }) => {
+    const [show, setShow] = useState(false)
     
     // console.log(data)
     return (
@@ -38,7 +42,9 @@ const Navbar = ({ uselogo, logosrc, logoClass }) => {
             </div>
             {/* burger menu (mobile) */}
             <div className="flex items-center md:hidden ">
-                <Foobar />
+                {/* <Foobar /> */}
+                <button onClick={() => setShow(!show)}><FaAlignJustify /></button>
+                {show && <Navtoogle onClose={()=> setShow(!show)} />}
             </div>
         </div>
     )
